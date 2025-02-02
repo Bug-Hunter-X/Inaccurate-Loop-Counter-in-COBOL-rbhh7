@@ -1,0 +1,3 @@
+This repository demonstrates a common logic error in COBOL programs. The original code contains a `PERFORM VARYING` loop that doesn't incorporate any conditional logic to terminate the loop early or modify the counter dynamically based on external factors. The solution demonstrates how to modify the loop to incorporate conditionals to ensure correct results under varying conditions. 
+
+The bug is described in the file bug.cob, along with a description of the problem and context. The solution is provided in bugSolution.cob. 
